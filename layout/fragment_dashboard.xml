@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="480dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:id="@+id/publish_fragment_dashboard"
+    android:background="@color/colorBlack"
+    android:text="发布新闻"
+    android:textColor="@color/colorWhite"
+    android:textSize="20sp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

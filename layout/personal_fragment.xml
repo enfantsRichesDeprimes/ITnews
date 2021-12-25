@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorBrown"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/headshot"
+            android:src="@mipmap/user_headshot"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:id="@+id/username_personal_fragment"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPink"
+        android:id="@+id/resume_personal_fragment"
+        android:text="无简介"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/gender"
+        android:background="@color/colorGreen"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/changePassword_personal_fragment"
+        android:layout_marginTop="100dp"
+        android:text="修改密码"
+        android:textSize="20sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

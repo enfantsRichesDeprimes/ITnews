@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/news_menu"
+    android:title="新闻"
+    android:icon="@mipmap/user_headshot"/>
+    <item
+        android:id="@+id/myArticle_menu"
+        android:title="我的文章"
+        android:icon="@mipmap/user_headshot"/>
+    <item
+        android:id="@+id/person_menu"
+        android:title="个人"
+        android:icon="@mipmap/user_headshot"/>
+</menu>

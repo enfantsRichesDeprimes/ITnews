@@ -1,0 +1,2 @@
+rootProject.name='ITnews'
+include ':app'
